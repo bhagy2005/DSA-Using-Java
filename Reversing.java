@@ -5,14 +5,10 @@ public class Reversing {
     public static void main(String[] args) {
         String name = "BHAGYA";
         for(int i=5; i>=0; i--){
-            System.out.println(name.charAt(i));
+            System.out.print(name.charAt(i));
             }
     }
 }
-// Output:
-// A
-// Y        
-// G
-// A
-// H
-// B
+// Output: AYGAHB
+
+
