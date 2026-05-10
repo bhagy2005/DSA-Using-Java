@@ -4,9 +4,11 @@
 public class Reversing {
     public static void main(String[] args) {
         String name = "BHAGYA";
+        String name2 = "";
         for(int i=5; i>=0; i--){
-            System.out.print(name.charAt(i));
-            }
+            name2 = name2 + name.charAt(i);
+        }
+        System.out.println(name2);
     }
 }
 // Output: AYGAHB
