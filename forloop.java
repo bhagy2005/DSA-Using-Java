@@ -24,9 +24,14 @@
 public class forloop{
     public static void main(String[] args){
         String name = "BHAGYA";
-        for(int i=0; i<6; i++){
+        for(int i=0; i<5; i++){
             System.out.println(name.charAt(i));
             }
     }
 }
 // Output:
+// B
+// H
+// A
+// G    
+// Y
