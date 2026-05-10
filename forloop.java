@@ -1,6 +1,6 @@
 // This program demonstrates the use of a for loop in Java. 
 // It initializes an array of integers and uses a for loop to print each element of the array.
-/*public class forloop {
+public class forloop {
     public static void main(String[] args) {
         // for loop to print numbers from 1 to 5
         int num[] = {1, 2, 3, 4, 5};
@@ -8,7 +8,7 @@
             System.out.println(num[i]);
         }
     }
-}*/
+}
 
 /*Output:
 1
@@ -35,3 +35,21 @@ public class forloop{
 // A
 // G    
 // Y
+
+// reversing loop is used to reverse the order of characters in a string. 
+// By using a loop to iterate through the string from the last index to the first index, we can print the characters in reverse order.
+public class forloop{
+    public static void main(String[] args){
+        String name = "BHAGYA";
+        for(int i=5; i>=0; i--){
+            System.out.println(name.charAt(i));
+        }
+    }
+}
+// output: 
+// A
+// Y
+// G
+// A
+// H
+// B
